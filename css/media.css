@@ -2,10 +2,11 @@
   MOBILE 
 */
 
-/* Common  */
+
 @media screen and (max-width: 419px){
 
-  body{
+  /* Common  */
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,21 +15,22 @@
   .row{
     width: 100%;
     margin-top: 0;
-    padding: 10px 0;
+    padding: 10px;
   }
 
   h1, h3{
     margin: 0;
   }
 
-}
-/* /Common  */
+  img{
+    height: 25vw;
+    margin-top: 20px;
+  }
+  /* /Common  */
 
 
 
-/* Lezioni  */
-@media screen and (max-width: 419px){
-
+  /* Lezioni  */
   #lezioni .row{
     background-color: #F2F2CD;
   }
@@ -38,20 +40,11 @@
     width: 100%;
     float: none;
   }
-
-  #lezioni img{
-    height: 100px;
-    margin-top: 20px;
-  }
-
-}
-/* /Lezioni  */
+  /* /Lezioni  */
 
 
 
-/* Steps  */
-@media screen and (max-width: 419px){
-
+  /* Steps  */
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
@@ -59,19 +52,11 @@
     float: none;
   }
 
-  #steps img{
-    height: 100px;
-    margin-top: 20px;
-  }
-
-}
-/* /Steps  */
+  /* /Steps  */
 
 
 
-/* Why */
-@media screen and (max-width: 419px){
-
+  /* Why */
   #why .row{
     background-color: #F2F2CD;
   }
@@ -82,11 +67,5 @@
     width: 100%;
     margin-top: 0;
   }
-
-  #why img{
-    height: 50px;
-    margin-top: 20px;
-  }
-
+  /* /Why */
 }
-/* /Why */
